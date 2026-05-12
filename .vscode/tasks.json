@@ -31,5 +31,15 @@
       "name": "Extension + Server",
       "configurations": ["Launch Extension", "Attach to Server"]
     }
+  ],
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build",
+      "detail": "npm run compile && cd client && npm run compile"
+    }
   ]
 }
