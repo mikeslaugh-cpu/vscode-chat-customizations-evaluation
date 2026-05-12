@@ -13,7 +13,7 @@ This repository implements a VS Code extension for analyzing and improving AI pr
 - `src/` — language server and analyzer logic
   - `src/server.ts` — server entry point
   - `src/analyzers/llm.ts` — LLM-powered semantic analysis implementation
-  - `src/types.ts` — shared type definitions
+  - `src/types.ts` — shared interfaces, enums, protocol types, diagnostics, and agent metadata definitions used across the extension
   - `src/__tests__/` — unit tests for analyzer behavior
 - `client/` — VS Code extension client
   - `client/src/extension.ts` — extension activation and command wiring
